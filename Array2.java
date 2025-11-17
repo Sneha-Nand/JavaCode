@@ -1,3 +1,4 @@
+// Taking input from user in arrays
 package core;
 
 import java.util.Arrays;
@@ -13,6 +14,7 @@ public class Array2 {
 		int size = sc.nextInt();
 		
 		int rollno[]=new int[size];
+		
 		for(int i=0;i<size;i++)
 		{
 			System.out.println("Enter the number of students at index " +i);
